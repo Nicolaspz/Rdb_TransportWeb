@@ -68,7 +68,7 @@ function PoliticaPrivacidade() {
       </ul>
       <h3>Contato</h3>
       <p>
-        Se você tiver dúvidas ou preocupações sobre esta Política de Privacidade, entre em contato conosco pelo e-mail: <a href="mailto:rdbtransportesdb@gmail.com">rdbtransportesdb@gmail.com</a>.
+        Se você tiver dúvidas ou preocupações sobre esta Política de Privacidade, entre em contato conosco pelo e-mail: <a href="mailto:rdbtransportesdb@gmail.com">rdbtransportesdb@gmail.com</a> <br></br> pelo Telefones: <a href="tel:948 827 757">948 827 757 / 948 827 706</a> 
       </p>
     </div>
   );
