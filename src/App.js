@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css'; // Certifique-se de incluir estilos adicionais aqui
+import AccountDeletion from './componnet/deletaccount';
 import logo from './logo.png'; // Certifique-se de salvar o logo na pasta 'src' do projeto
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
                 <li className="nav-item">
                   <Link to="/politica" className="nav-link text-dark">Política de Privacidade</Link>
                 </li>
+                 <li className="nav-item">
+                  <Link to="/deleteAccount" className="nav-link text-dark">Deletar Conta</Link>
+                </li>
               </ul>
             </nav>
           </div>
@@ -28,6 +32,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/politica" element={<PoliticaPrivacidade />} />
+               <Route path="/deleteAccount" element={<AccountDeletion />} />
             </Routes>
           </div>
         </main>
